@@ -17,9 +17,16 @@
     <div class="group" id="proglang">
       <span class="question" data-l10n-id="question"></span>
       <ul class="choices">
-        <li next-group="writing">Writing</li>
-        <li next-group="coding">Coding</li>
-        <li next-group="engagement">Engagement
+        <li next-group="writing">Write
+          <div class="extra" data-l10n-id="writing-extra"></div>
+        </li>
+        <li next-group="coding">Code
+        <div class="extra" data-l10n-id="coding-extra"></div>
+        </li>
+        <li next-group="contribute">Contribute
+          <div class="extra" data-l10n-id="contribute-intro"></div> 
+          </li>     
+        <li next-group="engagement">Engage
           <div class="extra" data-l10n-id="engagement-extra"></div>
         </li>
       </ul>
@@ -40,10 +47,9 @@
     <div class="group" id="coding">
       <span class="question" data-l10n-id="coding-intro"></span>
       <ul class="choices">
-        <li>CKAN
           <div class="extra" data-l10n-id="coding-ckan-extra"></div>
         </li>
-        <li>Recline.JS
+        <li target="http://okfn.org/local">Recline.JS
           <div class="extra" data-l10n-id="coding-recline-extra"></div>
         </li>
         <li>OpenSpending
@@ -55,11 +61,26 @@
     <div class="group" id="engagement">
       <span class="question" data-l10n-id="engagement-intro"></span>
       <ul class="choices">
-        <li>Start a new local group
-          <div class="extra" data-l10n-id="engagement-lgstart-extra"></div>
-        </li>
-        <li>Engage with the local group in your area
+        <li target="http://okfn.org/local">Local Community
           <div class="extra" data-l10n-id="engagement-lg-extra"></div>
+        </li>
+        <li target="http://okfn.org/wg">Working Groups
+          <div class="extra" data-l10n-id="engagement-wg"></div>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="group" id="contribute">
+      <span class="question" data-l10n-id="contribute-intro"></span>
+      <ul class="choices">
+        <li>Open Data Census
+          <div class="extra" data-l10n-id="census-intro"></div>
+        </li>
+        <li>Recline.JS
+          <div class="extra" data-l10n-id="coding-recline-extra"></div>
+        </li>
+        <li>OpenSpending
+          <div class="extra" data-l10n-id="coding-openspending-extra"></div>
         </li>
       </ul>
     </div>
